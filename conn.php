@@ -1,6 +1,6 @@
 <?php
 
-$con = mysqli_connect('localhost','root','','apartment');
+$con = mysqli_connect('database-2.ct4sagiomru4.eu-north-1.rds.amazonaws.com','admin','89698454','apartment');
 
 if(!$con){
 die('Database Connection Lost');
